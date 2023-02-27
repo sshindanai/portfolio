@@ -13,7 +13,7 @@ export default function About({}: Props) {
       transition={{ duration: 1.5 }}
       className="relative flex flex-col items-center h-screen px-10 mx-auto text-center md:text-left md:flex-row max-w-7xl justify-evenly"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl hidden sm:block">
         About
       </h3>
 
@@ -36,9 +36,9 @@ export default function About({}: Props) {
         ></Image>
       </motion.div>
 
-      <div className="px-0 space-y-10 md:px-10">
+      <div className="px-0 space-y-3 md:space-y-10 md:px-10">
         <h4 className="text-4xl font-semibold">
-          About <span className="underline decoration-[#F7AB0A]/50">me</span>{" "}
+          about <span className="underline decoration-[#F7AB0A]/50">me</span>{" "}
         </h4>
         <p className="text-base">
           I'm Shin. I'm a software engineer based in the vibrant city of
