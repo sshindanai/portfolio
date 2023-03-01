@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 
 import type { NextPage } from "next";
+import WorkExperience from "../components/WorkExperience";
 const Home: NextPage = () => {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
@@ -25,6 +26,9 @@ const Home: NextPage = () => {
       </section>
 
       {/* Experience */}
+      <section id="experience" className="snap-center">
+        <WorkExperience />
+      </section>
       {/* Skills */}
       {/* Projects */}
       {/* Contact Me */}
